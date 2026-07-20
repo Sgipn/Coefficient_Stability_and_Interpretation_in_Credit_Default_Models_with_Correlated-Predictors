@@ -1,7 +1,9 @@
 # Feature Cost vs. Signal in Credit Risk Prediction
 
 ### Overview
-This project examines how much of a credit default model's predictive signal can be retained when the number and cost of input features is deliberately constrained. Financial variables (e.g., credit limits, balances) and behavioral variables (e.g., repayment history) are not independent signals; they encode overlapping information about borrower risk, and acquiring and maintaining each additional feature carries a real data-acquisition cost.
+This project examines how much of a credit default model's predictive signal can be retained when the number and cost of input features is deliberately constrained. 
+
+Financial variables (e.g., credit limits, balances) and behavioral variables (e.g., repayment history) are not independent signals; they encode overlapping information about borrower risk, and acquiring and maintaining each additional feature carries data-acquisition costs.
 
 The analysis extends beyond predictive accuracy alone to ask which features are worth their cost, how that answer depends on the borrower's current state, and how a small, low-cost feature set compares against the full specification.
 
